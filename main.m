@@ -1,13 +1,8 @@
 clear; clc; close all; 
-%% Setup VLFeat toolbox.
 %----------------------
 addNeedingPaths;
-run ../vlfeat-0.9.21/toolbox/vl_setup;
 
 % setup parameters
-% Parameters of SIFT detection
-parameters.peakthresh = 0;
-parameters.edgethresh = 500;
 
 % % Parameters of RANSAC via fundamental matrix
 parameters.minPtNum = 4;    % minimal number for model fitting

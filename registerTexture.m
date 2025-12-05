@@ -3,7 +3,7 @@ function [warped_img1, warped_img2] = registerTexture(img1,img2, parameters)
 % detect and match sift features, estimate homography transformation
 % and calculate alignment result
 
-[pts1, pts2] = siftMatch(img1, img2, parameters);
+[pts1, pts2] = siftMatch(img1, img2);
 
 %% image alignment via homography method
 [matches_1, matches_2] = homoRANSAC(pts1, pts2, parameters); % delete wrong match features

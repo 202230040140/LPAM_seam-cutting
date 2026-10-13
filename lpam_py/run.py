@@ -21,8 +21,8 @@ from hd3d_eval import evaluate_raw,load_niqe_metric,load_lpips_metric
 
 DEFAULTS={
  'stitchbench':(Path(r'D:\StitchBench_Result'),Path(r'D:\StitchBench_Result\manifest.csv'),100),
- 'hd3d':(Path(r'D:\HD3D_Result'),Path(r'D:\HD3D_Result\_global_work\_work_root\manifest.csv'),78),
- 'lpsd':(Path(r'D:\LPS_Result'),Path(r'D:\LPS_Result\_global_work\_work_root\manifest.csv'),36)}
+ 'hd3d':(Path(r'D:\HD3D_Dataset_Result'),Path(r'D:\HD3D_Dataset_Result\_global_work\_work_root\manifest.csv'),78),
+ 'lpsd':(Path(r'D:\LPS-D_Result'),Path(r'D:\LPS-D_Result\_global_work\_work_root\manifest.csv'),36)}
 
 
 def now(): return datetime.now(timezone.utc).isoformat()

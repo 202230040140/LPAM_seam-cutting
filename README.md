@@ -28,3 +28,6 @@ Download the code, add images in the folder "Imgs" in the main path, and run the
 ```
 
 If you have any comments, suggestions, or questions, please contact me (tianli.liao@haut.edu.cn).
+
+
+Current benchmark output interface: [OUTPUT_FORMAT.md](OUTPUT_FORMAT.md).
